@@ -14,7 +14,7 @@ let proxyIP = proxy_IP_s[Math.floor(Math.random() * proxy_IP_s.length)];
 // ipv6 proxyIP example remove comment to use
 // let proxyIP = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
 
-let dohURL = 'https://freedns.controld.com/p0'; // https://github.com/serverless-dns/serverless-dns OR xxx.xxx.workers.dev [README.md]
+let dohURL = 'https://dns.google/dns-query'; // https://github.com/serverless-dns/serverless-dns OR xxx.xxx.workers.dev [README.md]
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is invalid');
